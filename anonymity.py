@@ -61,7 +61,15 @@ async def on_ready():
 #    # # #  # #    # # #  #   #   # ## # #   #     #   
 ###### #  # # #    # #  # #   #   #    # #   #     #   
 #    # #   ## #    # #   ##   #   #    # #   #     #   
-#    # #    #  ####  #    #   #   #    # #   #     #   
+#    # #    #  ####  #    #   #   #    # #   #     #
+
+
+[1] ^ghost | changes pfp to blank, and changes name to blank.
+[2] ^leavegroup | leaves all group chats.
+[3] ^leaveserver | leaves all servers.
+[4] ^delfriends | removes all friends.
+[5] ^anonymity | makes you completely anonymous (does all of the listed commands at once)
+
 ''')
 
 @client.command()
